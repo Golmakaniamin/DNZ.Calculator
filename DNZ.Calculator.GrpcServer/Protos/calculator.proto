@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "DNZ.Calculator.GrpcServer.Protos";
+
+message SumRequest{
+	int64 f_number = 1;
+	int64 s_number = 2;
+}
+
+message Sumresponse{
+	int64 result = 1;
+}
+
+service CalculatorService{
+	rpc Sum(SumRequest) returns (Sumresponse);
+}

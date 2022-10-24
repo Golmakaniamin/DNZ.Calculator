@@ -1,0 +1,18 @@
+using DNZ.Calculator.GrpcServer.GrpcServices;
+
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddGrpc();
+
+var app = builder.Build();
+
+app.MapGet("/", () => "Hello World!");
+
+app.UseHttpsRedirection();
+app.UseRouting();
+
+app.UseEndpoints(endpoint =>
+{
+    endpoint.MapGrpcService<CalculatorGrpcService>();
+});
+
+app.Run();

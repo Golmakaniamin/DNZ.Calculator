@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNZ.Calculator.GrpcServer", "DNZ.Calculator.GrpcServer\DNZ.Calculator.GrpcServer.csproj", "{87CB155A-ECFC-478B-95BC-1BC5C0FD1C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNZ.Calculator.GprcClient", "DNZ.Calculator.GprcClient\DNZ.Calculator.GprcClient.csproj", "{02F67102-7B57-432D-92F9-E7D3AD19F74C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87CB155A-ECFC-478B-95BC-1BC5C0FD1C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CB155A-ECFC-478B-95BC-1BC5C0FD1C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CB155A-ECFC-478B-95BC-1BC5C0FD1C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CB155A-ECFC-478B-95BC-1BC5C0FD1C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F67102-7B57-432D-92F9-E7D3AD19F74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F67102-7B57-432D-92F9-E7D3AD19F74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F67102-7B57-432D-92F9-E7D3AD19F74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F67102-7B57-432D-92F9-E7D3AD19F74C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E24A1501-0F23-45B4-B328-8569F31351FF}
+	EndGlobalSection
+EndGlobal
